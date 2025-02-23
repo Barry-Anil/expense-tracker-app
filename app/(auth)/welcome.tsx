@@ -28,7 +28,7 @@ const Welcome = () => {
 
         <Animated.Image
           entering={FadeIn.duration(500)}
-          source={require("../../assets/images/welcome.webp")}
+          source={require("../../assets/images/welcome.png")}
           style={styles.welcomeImage}
           resizeMode="contain"
         />
