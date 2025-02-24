@@ -21,6 +21,11 @@ export type ScreenWrapperProps = {
 //   bg?: string;
 };
 
+export type BackButtonProps = {
+  style?: ViewStyle;
+  iconSize?: number;
+};
+
 export type ModalWrapperProps = {
   style?: ViewStyle;
   children: React.ReactNode;
