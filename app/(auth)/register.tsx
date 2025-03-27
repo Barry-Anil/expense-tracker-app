@@ -19,13 +19,11 @@ const Login = () => {
 
   const handleSubmit = async () => {
     if (!emailRef.current || !passwordRef.current || nameRef.current) {
-      Alert.alert("Login", "Please fill all the fields");
+      
       return;
     }
-    console.log("email", emailRef.current);
-    console.log("name", nameRef.current);
-    console.log("password", passwordRef.current);
-    console.log("good to go");
+    setIsLoading(true)
+    router.push("/(tabs)")
   };
   return (
     <ScreenWrapper>
