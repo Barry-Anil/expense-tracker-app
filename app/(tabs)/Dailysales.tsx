@@ -147,7 +147,6 @@ const Dailysales = () => {
     }
   };
 
-  console.log(salesData?.data, "sales");
 
   return (
     <ScreenWrapper>
